@@ -10,7 +10,7 @@
       font-family: 'Montserrat';
       color: orange;
       line-height: 1.2;
-      font-size: 50px;
+      font-size: 60px;
       font-weight: 900;
   }
   
@@ -27,6 +27,7 @@ h3 {
 }
 p{
     color: rgb(255, 255, 255);
+    font-weight: 400;
 
 }
   /* Navigation Bar */
