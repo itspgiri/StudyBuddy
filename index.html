@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Study Buddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--JavaScript Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+
+  <!--Bootstrap CSS and CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!--Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!--Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/c0ad3a43c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <div class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand ms-3" href="">
+          <span class="logo">StudyBuddy </span>
+        </a>
+        <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-navbar"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="mobile-navbar">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 ">
+          <h1 class="home">Find a study buddy to learn with.</h1>
+          <button type="button" class="btn btn-outline-light "><i class="fas fa-sign-in-alt"></i> Learn More </button>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="images/homepage.png" class="logopadding">
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row" style="padding-top: 40px; text-align: center;">
+      <!-- Note that each row is made of 12 boxes and so if we say 1/3rd it's 4 boxes. -->
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-university fa-4x" style="padding-bottom: 10px;"></i>
+        <h3>Easy to use.</h3>
+        <p>Let's you focus on what really matters.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-user-graduate fa-4x" style="padding-bottom: 10px;"></i>
+        <h3>3 Million Users</h3>
+        <p>Ensures you get a study buddy whose aspiration align with yours.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-crosshairs fa-4x" style="padding-bottom: 10px;"></i>
+        <h3>Money Back</h3>
+        <p>Improved grades or no questions asked refund.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval=10000>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Uncommon fact, I found Din Djarin a.k.a The Mandalorian on StudyBuddy.</h2>
+          <img class="testimonial-image" src="images/user1.jpg" alt="Baby Yoda">
+          <em>Grogu, Jedi Temple - Coruscant</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">StudyBuddy = Ohana.</h2>
+          <img class="testimonial-image" src="images/user2.jpg" alt="lady-profile">
+          <em>Stitch, Planet X</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Thanks to StudyBuddy I found Carl Fredricksen to be my first Wilderness Explorer
+            Parter.</h2>
+          <img class="testimonial-image" src="images/user3.jpg" alt="lady-profile">
+          <em>Russell, Up 2009</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="cardcolor">A Plan for Every Student's Needs</h2>
+    <p class="cardcolor">Simple and affordable price plans for you.</p>
+
+
+
+    <div class="row">
+      <div class="pricing-col col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-light mb-3">
+          <div class="card-header">
+            <h3 class="cardcolort1">Starter Pack</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p class="cardcolor">5 Matches Per Day
+            <br>10 Messages Per Day
+            <br>Unlimited App Usage</p>
+            
+          </div>
+          <div class="card-footer border-0">
+            <button type="button" class="btn btn-light w-100"><b>Current Plan</b></button>          </div>
+        </div>
+      </div>
+      <div class="pricing-col col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm text-white bg-warning mb-3">
+          <div class="card-header">
+            <h3 class="cardcolort2">Scholar Pack</h3>
+          </div>
+          <div class="card-body">
+            <h2>$5/mo</h2>
+            <p>Unlimited Matches
+            <br>Unlimited Messages
+            <br>Unlimited App Usage</p>
+            
+          </div>
+          <div class="card-footer border-0">
+            <button type="button" class="btn btn-outline-light w-100">Upgrade</button>
+          </div>
+        </div>
+      </div>
+      <!-- col-md-12 isn't required as it's default -->
+      <div class="pricing-col col-lg-4 col-md-12">
+        <div class="card h-100 shadow-sm text-white bg-warning mb-3">
+          <div class="card-header">
+            <h3 class="cardcolort2">Ranker Pack</h3>
+          </div>
+          <div class="card-body">
+            <h2>$10/mo</h2>
+            <p>Pirority Listing
+            <br>Unlimited Matches
+            <br>Unlimited Messages
+            <br>Unlimited App Usage</p>
+            
+          </div>
+          <div class="card-footer border-0">
+            <button type="button" class="btn btn-outline-light w-100">Upgrade</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Find your <b style="color: black;">StudyBuddy</b> Today.<br>We offer guarnteed money back.</h3>
+    <button type="button" class="btn btn-outline-dark"><i class="fas fa-download"></i>  Download</button>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" style="color: white;">
+    <a href="https://www.linkedin.com/in/itspgiri/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/itspgiri" target="_blank" rel="noopener"><i class="social-icon fab fa-github"></i></a>
+    <a href="https://medium.com/@itspgiri" target="_blank" rel="noopener"><i class="fab fa-medium-m"></i></a>
+    <p>© Copyright 2021 Priyanka Giri</p>
+
+  </footer>
+</body>
+
+</html>
